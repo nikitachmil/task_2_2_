@@ -1,18 +1,19 @@
 fun main() {
 
-    val likes = 2 //количество лайков
-    val total = likes % 10
+    val likes = 2211 //количество лайков
+    val total = likes % 100
+
 
 
     if (total == 1) {
-        print("нравится ")
-        print(likes)
-        print(" человеку") //человеку
+
+        print("Нравится $likes  человеку") //человеку
+    } else if (total == 11) {
+
+        print("Нравится $likes  людям") //людям
     } else {
-        print("нравится ")
-        print(likes)
-        print(" людям") //людям
+
+        print("Нравится $likes  людям") //людям
 
     }
-
 }
